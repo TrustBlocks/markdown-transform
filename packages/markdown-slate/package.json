@@ -53,7 +53,8 @@
   },
   "dependencies": {
     "@accordproject/markdown-cicero": "0.13.0",
-    "@accordproject/markdown-common": "0.13.0"
+    "@accordproject/markdown-common": "0.13.0",
+    "@accordproject/markdown-template": "0.13.0"
   },
   "license-check-config": {
     "src": [

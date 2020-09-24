@@ -70,6 +70,10 @@ const transformationGraph = {
         pdfmake: (input, parameters, options) => {
             return PdfTransformer.templateMarkToPdfMake(input, options);
         },
+        slate: (input,parameters,options) => {
+            const t = new SlateTransformer();
+            return t.fromTemplateMark(input);
+        },
     },
     markdown: {
         docs: 'Markdown (string)',
