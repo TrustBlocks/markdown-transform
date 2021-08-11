@@ -121,7 +121,7 @@ const createTemplate = (name, roles, pdfBase64, nbPages) => {
         autoMatch: 'true',
         autoMatchSpecifiedByUser: 'false',
         created: '2021-04-29T14:55:38.1200000Z',
-        description: '',
+        description: `Sample template generated from ${name}`,
         documents: [
             {
                 display: 'inline',
